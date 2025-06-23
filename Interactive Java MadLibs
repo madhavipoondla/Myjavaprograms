@@ -1,0 +1,19 @@
+package method;
+import java.util.Scanner;
+public class story {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String noun1;
+		String verb1;
+		String adjective1;
+		System.out.println("enter the noun:  ");
+		noun1 = scanner.nextLine();
+		System.out.println("enter the verb :  ");
+		verb1 = scanner.nextLine();
+		System.out.println("enter the adjective:  ");
+		adjective1 = scanner.nextLine();
+		System.out.println( "Java was created by "  + noun1+ " to build programs that "  + verb1 );
+		System.out.println(" on any device,It became famous for its \"Write Once, Run Anywhere\" with the help of the "  + adjective1 + " JVM.");
+		scanner.close();
+	}
+}
